@@ -1,0 +1,353 @@
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\COW.exe.config
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\COW.exe
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\COW.pdb
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\Google.Protobuf.dll
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\MySql.Data.dll
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\System.Buffers.dll
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\System.Memory.dll
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\Google.Protobuf.pdb
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\Google.Protobuf.xml
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\MySql.Data.xml
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\System.Buffers.xml
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\System.Memory.xml
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Aluno\Downloads\COW-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.csproj.AssemblyReference.cache
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.csproj.SuggestedBindingRedirects.cache
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.Form1.resources
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.FormCadastDevedor.resources
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.FormCadastro.resources
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.FormDeletP.resources
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.FormDevedor.resources
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.FormDevolucao.resources
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.FormEditarP.resources
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.FormLogin.resources
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.FormNovPedido.resources
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.FormNovProdu.resources
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.FormPerfilAdmin.resources
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.FormPerfilFuncio.resources
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.FormProduto.resources
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.FormVenda.resources
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.FormVENDprotduto.resources
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.Properties.Resources.resources
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.csproj.GenerateResource.cache
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.csproj.CopyComplete
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.exe
+C:\Users\Aluno\Downloads\COW-main\obj\Debug\COW.pdb
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.csproj.AssemblyReference.cache
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.csproj.SuggestedBindingRedirects.cache
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.Form1.resources
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormCadastDevedor.resources
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormCadastro.resources
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormDeletP.resources
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormDevolucao.resources
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormEditarP.resources
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormLogin.resources
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormNovPedido.resources
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormNovProdu.resources
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormPerfilAdmin.resources
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormPerfilFuncio.resources
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormProduto.resources
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormVenda.resources
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormVENDprotduto.resources
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.Properties.Resources.resources
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.csproj.GenerateResource.cache
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.csproj.CoreCompileInputs.cache
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.exe
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.pdb
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\COW.exe.config
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\COW.exe
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\COW.pdb
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\Google.Protobuf.dll
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\MySql.Data.dll
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\System.Buffers.dll
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\System.Memory.dll
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\Google.Protobuf.pdb
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\Google.Protobuf.xml
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\MySql.Data.xml
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\System.Buffers.xml
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\System.Memory.xml
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.csproj.CopyComplete
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\aa-DJ\COW.resources.dll
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormLogin.aa-DJ.resources
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\obj\Debug\aa-DJ\COW.resources.dll
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\COW.exe.config
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\COW.exe
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\COW.pdb
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\aa-DJ\COW.resources.dll
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\BouncyCastle.Crypto.dll
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\Google.Protobuf.dll
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.dll
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\K4os.Hash.xxHash.dll
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\MySql.Data.dll
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\System.Buffers.dll
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\System.Memory.dll
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\System.Numerics.Vectors.dll
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\BouncyCastle.Crypto.xml
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\Google.Protobuf.pdb
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\Google.Protobuf.xml
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.xml
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\K4os.Hash.xxHash.xml
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\MySql.Data.xml
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\System.Buffers.xml
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\System.Memory.xml
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\System.Numerics.Vectors.xml
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.csproj.AssemblyReference.cache
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.csproj.SuggestedBindingRedirects.cache
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.Form1.resources
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormCadastDevedor.resources
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormCadastro.resources
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormDeletP.resources
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormDevolucao.resources
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormEditarP.resources
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormLogin.resources
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormNovPedido.resources
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormNovProdu.resources
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormPerfilAdmin.resources
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormPerfilFuncio.resources
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormProduto.resources
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormVenda.resources
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormVENDprotduto.resources
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.Properties.Resources.resources
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.FormLogin.aa-DJ.resources
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.csproj.GenerateResource.cache
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.csproj.CoreCompileInputs.cache
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\aa-DJ\COW.resources.dll
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.csproj.CopyComplete
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.exe
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\obj\Debug\COW.pdb
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\controler.dll
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\controler.pdb
+E:\3 modulo\projeto editado\Fazendo projeto\projeto - COW\COW-main\bin\Debug\controler.dll.config
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\controler.dll
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\controler.pdb
+C:\Users\gilci\Desktop\Fazendo projeto\projeto - COW\COW-main\bin\Debug\controler.dll.config
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\COW.exe.config
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\COW.exe
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\COW.pdb
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\aa-DJ\COW.resources.dll
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\controler.dll
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\Google.Protobuf.dll
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\MySql.Data.dll
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\System.Buffers.dll
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\System.Memory.dll
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\controler.pdb
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\controler.dll.config
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\Google.Protobuf.pdb
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\Google.Protobuf.xml
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\MySql.Data.xml
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\System.Buffers.xml
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\System.Memory.xml
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.csproj.AssemblyReference.cache
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.csproj.SuggestedBindingRedirects.cache
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.Form1.resources
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormCadastDevedor.resources
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormCadastro.resources
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormDeletP.resources
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormDevolucao.resources
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormEditarP.resources
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormLogin.resources
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormNovPedido.resources
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormNovProdu.resources
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormPerfilAdmin.resources
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormPerfilFuncio.resources
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormProduto.resources
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormVenda.resources
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormVENDprotduto.resources
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.Properties.Resources.resources
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormLogin.aa-DJ.resources
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.csproj.GenerateResource.cache
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.csproj.CoreCompileInputs.cache
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\aa-DJ\COW.resources.dll
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.csproj.CopyComplete
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.exe
+C:\Users\gilci\Desktop\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.pdb
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\COW.exe.config
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\COW.exe
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\COW.pdb
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\aa-DJ\COW.resources.dll
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\BouncyCastle.Crypto.dll
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\controler.dll
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\Google.Protobuf.dll
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.dll
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\K4os.Hash.xxHash.dll
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\MySql.Data.dll
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\System.Buffers.dll
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\System.Memory.dll
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\System.Numerics.Vectors.dll
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\controler.pdb
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\controler.dll.config
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\BouncyCastle.Crypto.xml
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\Google.Protobuf.pdb
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\Google.Protobuf.xml
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.xml
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\K4os.Hash.xxHash.xml
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\MySql.Data.xml
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\System.Buffers.xml
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\System.Memory.xml
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\System.Numerics.Vectors.xml
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.csproj.AssemblyReference.cache
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.csproj.SuggestedBindingRedirects.cache
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.Form1.resources
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormCadastDevedor.resources
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormCadastro.resources
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormDeletP.resources
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormEditarP.resources
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormLogin.resources
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormNovPedido.resources
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormNovProdu.resources
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormProduto.resources
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormVenda.resources
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormVENDprotduto.resources
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.Properties.Resources.resources
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormLogin.aa-DJ.resources
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.csproj.GenerateResource.cache
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.csproj.CoreCompileInputs.cache
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\aa-DJ\COW.resources.dll
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.csproj.CopyComplete
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.exe
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.pdb
+E:\3 modulo\projeto editado\ultimoFeito\projeto - COW\COW-main\obj\Debug\COW.FormDevedores.resources
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\COW.exe.config
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\COW.exe
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\COW.pdb
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\aa-DJ\COW.resources.dll
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\controler.dll
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\Google.Protobuf.dll
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\MySql.Data.dll
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\System.Buffers.dll
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\System.Memory.dll
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\controler.pdb
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\controler.dll.config
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\Google.Protobuf.pdb
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\Google.Protobuf.xml
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\MySql.Data.xml
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\System.Buffers.xml
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\System.Memory.xml
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\gilci\Desktop\projeto - COW\COW-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\COW.csproj.AssemblyReference.cache
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\COW.csproj.SuggestedBindingRedirects.cache
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\COW.Form1.resources
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\COW.FormCadastDevedor.resources
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\COW.FormCadastro.resources
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\COW.FormDeletP.resources
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\COW.FormDevedores.resources
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\COW.FormEditarP.resources
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\COW.FormLogin.resources
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\COW.FormNovPedido.resources
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\COW.FormNovProdu.resources
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\COW.FormProduto.resources
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\COW.FormVenda.resources
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\COW.FormVENDprotduto.resources
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\COW.Properties.Resources.resources
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\COW.FormLogin.aa-DJ.resources
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\COW.csproj.GenerateResource.cache
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\COW.csproj.CoreCompileInputs.cache
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\aa-DJ\COW.resources.dll
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\COW.csproj.CopyComplete
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\COW.exe
+C:\Users\gilci\Desktop\projeto - COW\COW-main\obj\Debug\COW.pdb
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\COW.exe.config
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\COW.exe
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\COW.pdb
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\aa-DJ\COW.resources.dll
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\BouncyCastle.Crypto.dll
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\controler.dll
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\Google.Protobuf.dll
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.dll
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\K4os.Hash.xxHash.dll
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\MySql.Data.dll
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\System.Buffers.dll
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\System.Memory.dll
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\System.Numerics.Vectors.dll
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\controler.pdb
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\controler.dll.config
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\BouncyCastle.Crypto.xml
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\Google.Protobuf.pdb
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\Google.Protobuf.xml
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.xml
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\K4os.Hash.xxHash.xml
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\MySql.Data.xml
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\System.Buffers.xml
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\System.Memory.xml
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\System.Numerics.Vectors.xml
+E:\3 modulo\projeto - COW\COW-main\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\COW.csproj.AssemblyReference.cache
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\COW.csproj.SuggestedBindingRedirects.cache
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\COW.Form1.resources
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\COW.FormCadastDevedor.resources
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\COW.FormCadastro.resources
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\COW.FormDeletP.resources
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\COW.FormDevedores.resources
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\COW.FormEditarP.resources
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\COW.FormLogin.resources
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\COW.FormNovPedido.resources
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\COW.FormNovProdu.resources
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\COW.FormProduto.resources
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\COW.FormVenda.resources
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\COW.FormVENDprotduto.resources
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\COW.Properties.Resources.resources
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\COW.FormLogin.aa-DJ.resources
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\COW.csproj.GenerateResource.cache
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\COW.csproj.CoreCompileInputs.cache
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\aa-DJ\COW.resources.dll
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\COW.csproj.CopyComplete
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\COW.exe
+E:\3 modulo\projeto - COW\COW-main\obj\Debug\COW.pdb
