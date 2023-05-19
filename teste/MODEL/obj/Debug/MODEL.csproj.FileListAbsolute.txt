@@ -10,3 +10,9 @@ C:\Users\Aluno\Downloads\teste\MODEL\obj\Debug\MODEL.csproj.AssemblyReference.ca
 C:\Users\Aluno\Downloads\teste\MODEL\obj\Debug\MODEL.csproj.CoreCompileInputs.cache
 C:\Users\Aluno\Downloads\teste\MODEL\obj\Debug\MODEL.dll
 C:\Users\Aluno\Downloads\teste\MODEL\obj\Debug\MODEL.pdb
+C:\Users\gilci\Documents\GitHub\Controle-de-Comercio\teste\MODEL\bin\Debug\MODEL.dll
+C:\Users\gilci\Documents\GitHub\Controle-de-Comercio\teste\MODEL\bin\Debug\MODEL.pdb
+C:\Users\gilci\Documents\GitHub\Controle-de-Comercio\teste\MODEL\obj\Debug\MODEL.csproj.AssemblyReference.cache
+C:\Users\gilci\Documents\GitHub\Controle-de-Comercio\teste\MODEL\obj\Debug\MODEL.csproj.CoreCompileInputs.cache
+C:\Users\gilci\Documents\GitHub\Controle-de-Comercio\teste\MODEL\obj\Debug\MODEL.dll
+C:\Users\gilci\Documents\GitHub\Controle-de-Comercio\teste\MODEL\obj\Debug\MODEL.pdb

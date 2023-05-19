@@ -22,18 +22,26 @@ namespace COW
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Conexoes adicionarProduto = new Conexoes();
-            adicionarProduto.NovoProduto(txt_nomeproduto.Text, txt_codigoproduto.Text, txt_valorproduto.Text);
 
-            
-            listView1.Items.Add(txt_nomeproduto.Text);
-            listView3.Items.Add(txt_codigoproduto.Text);
-            listView2.Items.Add(txt_valorproduto.Text);
-            txt_nomeproduto.Text = string.Empty;
-            txt_codigoproduto.Text = string.Empty;
-            txt_valorproduto.Text = string.Empty;
 
-            MessageBox.Show("Produto adicionado.");
+            dataGridView2.Rows.Clear();
+
+            string Coluna1 = txt_nomeproduto.Text;
+            string Coluna2 = txt_codigoproduto.Text;
+            string Coluna3 = txt_valorproduto.Text;
+
+
+            dataGridView2.ColumnCount = 3;
+            dataGridView2.Columns[0].HeaderText = "Nome do Produto";
+            dataGridView2.Columns[1].HeaderText = "Codigo do Produto";
+            dataGridView2.Columns[2].HeaderText = "Valor";
+          
+            string[] row = { Coluna1, Coluna2, Coluna3 };
+            dataGridView2.Rows.Add(row);
+
+            textBox6.Text = Coluna1;
+            textBox5.Text = Coluna2;
+            textBox1.Text = Coluna3;
 
         }
 
@@ -67,9 +75,11 @@ namespace COW
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            FormProduto produto = new FormProduto();
-            produto.Show();
+            Conexoes CadastrarProduto = new Conexoes();
+            CadastrarProduto.CadastroDeProdutos(textBox6.Text, textBox5.Text, textBox1.Text);
+            
+
+
         }
     }
 }

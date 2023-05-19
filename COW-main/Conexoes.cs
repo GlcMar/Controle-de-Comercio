@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Tab;
 
 namespace COW
 {
@@ -23,9 +25,9 @@ namespace COW
             */
 
         static private string servidor = "localhost";
-        static private string db = "test";
-        static private string usuario = "";
-        static private string senha = "";
+        static private string db = "abcde";
+        static private string usuario = "admin";
+        static private string senha = "admin";
         public MySqlConnection conn = null;
         static public string StrCon = "server=" + servidor + ";database=" + db + ";user id=" + usuario + ";password=" + senha;
 
@@ -46,7 +48,7 @@ namespace COW
             catch (Exception ex)
             {
                 result = false;
-                MessageBox.Show("Houve erro na conexão: \n" + ex);
+                MessageBox.Show("Erro na conexão: \n" + ex);
 
             }
             return result;
@@ -124,7 +126,7 @@ namespace COW
         }
 
 
-        
+
 
         public int NovoProduto(string nome, string codigo, string valor)
         {
@@ -153,6 +155,79 @@ namespace COW
 
             return Registro;
         }
+
+
+
+       
+
+
+
+
+        public int DeletarProduto(string CodigoDoProduto)
+        {
+            int Registro = -1;
+            try
+            {
+                conn = getConexao();
+                conn.Open();
+                MySqlCommand cmd = new MySqlCommand(CodigoDoProduto, conn);
+                cmd.CommandType = System.Data.CommandType.Text;
+                cmd.CommandText = "delete from tb_item where id_item = @id_item;";
+                cmd.Parameters.AddWithValue("@id_item", CodigoDoProduto);
+                Registro = cmd.ExecuteNonQuery();
+                conn.Close();
+                MessageBox.Show("Produto deletado.");
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Esse produto não existe.");
+
+
+            }
+
+            return Registro;
+        }
+
+
+
+        //O problema nessa atualização abaixo, é que nao consegui obter os dados do banco para
+        //importar pra dentro do datagrid, pra depois extrair pra label e atualizar.
+
+        //Ele funciona perfeitamente. Mas nao está usando a datagrid, nem da pra ver o codigo la.
+        //digite o id_item e mude  o nome da label1, 2 e 3 que funciona.
+        public int AtualizarProduto(string idProduto, string NomeProduto, string codigoProduto, string ValorProduto)
+        {
+            int Registro = -1;
+            try
+            {
+                conn = getConexao();
+                conn.Open();
+                MySqlCommand cmd = new MySqlCommand(idProduto, conn);
+                cmd.CommandType = System.Data.CommandType.Text;
+                cmd.CommandText = "UPDATE tb_item\r\nSET nome_item = @nome_item, valor = @valor, codigo = @codigo\r\nWHERE id_item = @id_item;";
+                cmd.Parameters.AddWithValue("@id_item", idProduto);
+                cmd.Parameters.AddWithValue("@valor", ValorProduto);
+                cmd.Parameters.AddWithValue("@codigo", codigoProduto);
+                cmd.Parameters.AddWithValue("@nome_item", NomeProduto);
+                Registro = cmd.ExecuteNonQuery();
+                conn.Close();
+
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("oxi" + ex);
+
+
+            }
+
+            return Registro;
+        }
+
+
+
 
         public int CadastroDevedor(string NomeCliente, string cpfCliente, string nomeproduto, string quantidade, string codigo)
         {
@@ -185,80 +260,87 @@ namespace COW
 
             return Registro;
         }
-        public int deletar(string nome)
-        {
-            int Registro = -1;
-
-            try
-            {
-
-                conn = getConexao();
-                conn.Open();
-                MySqlCommand cmd = new MySqlCommand(nome, conn);
-                cmd.CommandType = System.Data.CommandType.Text;
-                cmd.CommandText = "delete from tb_item where nome_item = @nome_item;";
-                cmd.Parameters.AddWithValue("@nome_item", nome);
-                Registro = cmd.ExecuteNonQuery();
-                conn.Close();
-                MessageBox.Show("Produto apagado.");
-
-            }
-            catch (Exception)
-            {
-
-                MessageBox.Show("Esse produto é inválido ou não existe.");
-            }
-
-            return Registro;
-        }
+        
 
 
-       
-        public int Busca(string buscar, string nome_item, string valor_item)
-        {
-            int Registro = -1;
 
+        public string BuscaEditarProduto(string Search, string result1, string result2, string result3) {
+            string buscado = "";
 
-            MessageBox.Show(nome_item);
-
+        
+            
 
             try
             {
                 conn = getConexao();
                 conn.Open();
-                MySqlCommand cmd = new MySqlCommand(buscar, conn);
+                MySqlCommand cmd = new MySqlCommand(Search, conn);
                 cmd.CommandType = System.Data.CommandType.Text;
-                cmd.CommandText = "select nome_item, valor from tb_item where id_item = @id_item;";
-                cmd.Parameters.AddWithValue("@id_item", buscar);
+                cmd.CommandText = "select nome_item, valor, codigo from tb_item where nome_item = @nome_item or valor = @valor or codigo = @codigo;";
+                cmd.Parameters.AddWithValue("@nome_item", result1);
+                cmd.Parameters.AddWithValue("@valor", result2);
+                cmd.Parameters.AddWithValue("@codigo", result3);
 
-                
                 MySqlDataReader reader = cmd.ExecuteReader();
 
-                if (reader.Read())
-                {
-                    nome_item = reader["nome_item"].ToString();
-                    valor_item = reader["valor"].ToString();
-                }
-                else
-                {
-                    nome_item = "";
-                    valor_item = "";
-                }
-                MessageBox.Show("foi");
-                return Registro;
-            }
-            catch (Exception)
-            {
+                reader.Read();
 
-                MessageBox.Show("Esse produto é inválido ou não existe.");
+                buscado = reader.GetString(0);
+
+                MessageBox.Show("Funcionou.");
+
+
+
+            }   catch {
+                MessageBox.Show("Nada encontrado.");
+            }
+
+        
+        
+        
+
+
+            return buscado;
+        }
+
+
+
+        
+
+
+        public int CadastroDeProdutos(string NomeProduto, string CodigoDoProduto, string valorDoProduto)
+        {
+            int Registro = -1;
+
+
+
+            try
+            {
+                conn = getConexao();
+                conn.Open();
+                MySqlCommand cmd = new MySqlCommand(NomeProduto, conn);
+                cmd.CommandType = System.Data.CommandType.Text;
+                cmd.CommandText = "insert into tb_item(nome_item, valor, codigo) values (@nome_item, @valor, @codigo);";
+                cmd.Parameters.AddWithValue("@nome_item", NomeProduto);
+                cmd.Parameters.AddWithValue("@valor", CodigoDoProduto);
+                cmd.Parameters.AddWithValue("@codigo", valorDoProduto);
+           
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                MessageBox.Show("Produto Cadastrado.");
+            }
+            catch (Exception ex)
+
+            {
+                MessageBox.Show("Alguma informação está incorreta." + ex);
             }
 
             return Registro;
         }
 
-
-
-
-
+        internal void NovoPedido(string text1, string text2)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

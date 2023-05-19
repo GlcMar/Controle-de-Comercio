@@ -33,8 +33,7 @@ namespace COW
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Conexoes buscando = new Conexoes();
-            buscando.Busca(textBox1.Text, textBox2.Text, textBox3.Text);
+            
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
@@ -50,9 +49,9 @@ namespace COW
         private void button1_Click(object sender, EventArgs e)
         {
 
-            this.Hide();
-            FormProduto produto = new FormProduto();
-            produto.ShowDialog();
+            Conexoes apagar = new Conexoes();
+            apagar.DeletarProduto(textBox1.Text);
+           
 
         }
     }

@@ -48,10 +48,6 @@
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.listView5 = new System.Windows.Forms.ListView();
-            this.listView6 = new System.Windows.Forms.ListView();
-            this.listView7 = new System.Windows.Forms.ListView();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.listView3 = new System.Windows.Forms.ListView();
@@ -59,6 +55,10 @@
             this.listView4 = new System.Windows.Forms.ListView();
             this.listView2 = new System.Windows.Forms.ListView();
             this.listView1 = new System.Windows.Forms.ListView();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.listView7 = new System.Windows.Forms.ListView();
+            this.listView5 = new System.Windows.Forms.ListView();
+            this.listView6 = new System.Windows.Forms.ListView();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -289,46 +289,6 @@
             this.textBox8.TabIndex = 68;
             this.textBox8.Text = "=";
             // 
-            // textBox9
-            // 
-            this.textBox9.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.textBox9.Location = new System.Drawing.Point(706, 229);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(25, 26);
-            this.textBox9.TabIndex = 67;
-            this.textBox9.Text = "X";
-            // 
-            // listView5
-            // 
-            this.listView5.HideSelection = false;
-            this.listView5.Location = new System.Drawing.Point(748, 202);
-            this.listView5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.listView5.Name = "listView5";
-            this.listView5.Size = new System.Drawing.Size(175, 92);
-            this.listView5.TabIndex = 66;
-            this.listView5.UseCompatibleStateImageBehavior = false;
-            // 
-            // listView6
-            // 
-            this.listView6.HideSelection = false;
-            this.listView6.Location = new System.Drawing.Point(1077, 202);
-            this.listView6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.listView6.Name = "listView6";
-            this.listView6.Size = new System.Drawing.Size(296, 92);
-            this.listView6.TabIndex = 64;
-            this.listView6.UseCompatibleStateImageBehavior = false;
-            // 
-            // listView7
-            // 
-            this.listView7.HideSelection = false;
-            this.listView7.Location = new System.Drawing.Point(24, 202);
-            this.listView7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.listView7.Name = "listView7";
-            this.listView7.Size = new System.Drawing.Size(672, 92);
-            this.listView7.TabIndex = 65;
-            this.listView7.UseCompatibleStateImageBehavior = false;
-            // 
             // textBox7
             // 
             this.textBox7.BackColor = System.Drawing.SystemColors.MenuBar;
@@ -399,6 +359,46 @@
             this.listView1.Size = new System.Drawing.Size(672, 92);
             this.listView1.TabIndex = 30;
             this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // textBox9
+            // 
+            this.textBox9.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.textBox9.Location = new System.Drawing.Point(706, 229);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(25, 26);
+            this.textBox9.TabIndex = 67;
+            this.textBox9.Text = "X";
+            // 
+            // listView7
+            // 
+            this.listView7.HideSelection = false;
+            this.listView7.Location = new System.Drawing.Point(24, 202);
+            this.listView7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.listView7.Name = "listView7";
+            this.listView7.Size = new System.Drawing.Size(672, 92);
+            this.listView7.TabIndex = 65;
+            this.listView7.UseCompatibleStateImageBehavior = false;
+            // 
+            // listView5
+            // 
+            this.listView5.HideSelection = false;
+            this.listView5.Location = new System.Drawing.Point(748, 202);
+            this.listView5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.listView5.Name = "listView5";
+            this.listView5.Size = new System.Drawing.Size(175, 92);
+            this.listView5.TabIndex = 66;
+            this.listView5.UseCompatibleStateImageBehavior = false;
+            // 
+            // listView6
+            // 
+            this.listView6.HideSelection = false;
+            this.listView6.Location = new System.Drawing.Point(1077, 202);
+            this.listView6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.listView6.Name = "listView6";
+            this.listView6.Size = new System.Drawing.Size(296, 92);
+            this.listView6.TabIndex = 64;
+            this.listView6.UseCompatibleStateImageBehavior = false;
             // 
             // FormNovPedido
             // 

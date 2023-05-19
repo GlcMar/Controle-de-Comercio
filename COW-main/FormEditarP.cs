@@ -37,5 +37,19 @@ namespace COW
             FormProduto produto = new FormProduto();
             produto.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Conexoes buscando = new Conexoes();
+            buscando.BuscaEditarProduto(textBox1.Text, label1.Text, label2.Text, label3.Text);
+
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Conexoes atualizacao = new Conexoes();
+            atualizacao.AtualizarProduto(textBox1.Text, label1.Text, label2.Text, label3.Text);
+        }
     }
 }

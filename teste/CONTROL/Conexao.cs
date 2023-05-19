@@ -12,9 +12,9 @@ namespace CONTROL
     public class Conexao
     {
         static private string servidor = "localhost";
-        static private string db = "tds";
-        static private string usuario = "root";
-        static private string senha = "";
+        static private string db = "abcde";
+        static private string usuario = "admin";
+        static private string senha = "admin";
         public MySqlConnection conn = null;
         static public string StrCon = "server=" + servidor + ";database=" + db + ";user id=" + usuario + ";password=" + senha;
 

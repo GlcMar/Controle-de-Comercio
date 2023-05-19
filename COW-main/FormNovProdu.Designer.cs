@@ -32,40 +32,40 @@
             this.txt_codigoproduto = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.txt_nomeproduto = new System.Windows.Forms.TextBox();
             this.txt_adicionar = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.listView3 = new System.Windows.Forms.ListView();
-            this.listView2 = new System.Windows.Forms.ListView();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.groupBox1.SuspendLayout();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // txt_valorproduto
             // 
-            this.txt_valorproduto.Location = new System.Drawing.Point(526, 28);
+            this.txt_valorproduto.Location = new System.Drawing.Point(789, 43);
+            this.txt_valorproduto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_valorproduto.Name = "txt_valorproduto";
-            this.txt_valorproduto.Size = new System.Drawing.Size(215, 20);
+            this.txt_valorproduto.Size = new System.Drawing.Size(320, 26);
             this.txt_valorproduto.TabIndex = 81;
             this.txt_valorproduto.Text = "Digite Valor do Produto...";
             // 
             // txt_codigoproduto
             // 
-            this.txt_codigoproduto.Location = new System.Drawing.Point(284, 28);
+            this.txt_codigoproduto.Location = new System.Drawing.Point(426, 43);
+            this.txt_codigoproduto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_codigoproduto.Name = "txt_codigoproduto";
-            this.txt_codigoproduto.Size = new System.Drawing.Size(215, 20);
+            this.txt_codigoproduto.Size = new System.Drawing.Size(320, 26);
             this.txt_codigoproduto.TabIndex = 80;
             this.txt_codigoproduto.Text = "Digite Código do Produto...";
             this.txt_codigoproduto.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(12, 572);
+            this.button3.Location = new System.Drawing.Point(18, 880);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(174, 50);
+            this.button3.Size = new System.Drawing.Size(261, 77);
             this.button3.TabIndex = 79;
             this.button3.Text = "Cancelar";
             this.button3.UseVisualStyleBackColor = true;
@@ -73,119 +73,94 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(775, 572);
+            this.button2.Location = new System.Drawing.Point(1162, 880);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(174, 50);
+            this.button2.Size = new System.Drawing.Size(261, 77);
             this.button2.TabIndex = 78;
             this.button2.Text = "Concluir";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.textBox2.Location = new System.Drawing.Point(28, 128);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(449, 20);
-            this.textBox2.TabIndex = 75;
-            this.textBox2.Text = "Nome do Produto";
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.textBox3.Location = new System.Drawing.Point(730, 128);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(199, 20);
-            this.textBox3.TabIndex = 76;
-            this.textBox3.Text = "Valor";
-            // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.textBox4.Location = new System.Drawing.Point(483, 128);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(233, 20);
-            this.textBox4.TabIndex = 77;
-            this.textBox4.Text = "Código do Produto";
-            // 
             // txt_nomeproduto
             // 
-            this.txt_nomeproduto.Location = new System.Drawing.Point(13, 28);
+            this.txt_nomeproduto.Location = new System.Drawing.Point(20, 43);
+            this.txt_nomeproduto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_nomeproduto.Name = "txt_nomeproduto";
-            this.txt_nomeproduto.Size = new System.Drawing.Size(244, 20);
+            this.txt_nomeproduto.Size = new System.Drawing.Size(364, 26);
             this.txt_nomeproduto.TabIndex = 74;
             this.txt_nomeproduto.Text = "Digite Nome do Produto...";
             this.txt_nomeproduto.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txt_adicionar
             // 
-            this.txt_adicionar.Location = new System.Drawing.Point(775, 12);
+            this.txt_adicionar.Location = new System.Drawing.Point(1162, 18);
+            this.txt_adicionar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_adicionar.Name = "txt_adicionar";
-            this.txt_adicionar.Size = new System.Drawing.Size(174, 50);
+            this.txt_adicionar.Size = new System.Drawing.Size(261, 77);
             this.txt_adicionar.TabIndex = 73;
             this.txt_adicionar.Text = "Adicionar";
             this.txt_adicionar.UseVisualStyleBackColor = true;
             this.txt_adicionar.Click += new System.EventHandler(this.button1_Click);
             // 
-            // groupBox1
+            // dataGridView2
             // 
-            this.groupBox1.Controls.Add(this.listView3);
-            this.groupBox1.Controls.Add(this.listView2);
-            this.groupBox1.Controls.Add(this.listView1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 146);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(936, 418);
-            this.groupBox1.TabIndex = 72;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(42, 252);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersWidth = 62;
+            this.dataGridView2.RowTemplate.Height = 28;
+            this.dataGridView2.Size = new System.Drawing.Size(1349, 230);
+            this.dataGridView2.TabIndex = 83;
             // 
-            // listView3
+            // textBox1
             // 
-            this.listView3.HideSelection = false;
-            this.listView3.Location = new System.Drawing.Point(471, 19);
-            this.listView3.Name = "listView3";
-            this.listView3.Size = new System.Drawing.Size(233, 393);
-            this.listView3.TabIndex = 33;
-            this.listView3.UseCompatibleStateImageBehavior = false;
+            this.textBox1.Location = new System.Drawing.Point(811, 652);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(320, 26);
+            this.textBox1.TabIndex = 87;
+            this.textBox1.Text = "Digite Valor do Produto...";
             // 
-            // listView2
+            // textBox6
             // 
-            this.listView2.HideSelection = false;
-            this.listView2.Location = new System.Drawing.Point(718, 19);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(199, 393);
-            this.listView2.TabIndex = 30;
-            this.listView2.UseCompatibleStateImageBehavior = false;
+            this.textBox6.Location = new System.Drawing.Point(42, 652);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(364, 26);
+            this.textBox6.TabIndex = 85;
+            this.textBox6.Text = "Digite Nome do Produto...";
             // 
-            // listView1
+            // textBox5
             // 
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(16, 19);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(449, 393);
-            this.listView1.TabIndex = 30;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.textBox5.Location = new System.Drawing.Point(448, 652);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(320, 26);
+            this.textBox5.TabIndex = 86;
+            this.textBox5.Text = "Digite Código do Produto...";
             // 
             // FormNovProdu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(961, 634);
+            this.ClientSize = new System.Drawing.Size(1442, 975);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.txt_valorproduto);
             this.Controls.Add(this.txt_codigoproduto);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.txt_nomeproduto);
             this.Controls.Add(this.txt_adicionar);
-            this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormNovProdu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Novo Produto";
             this.Load += new System.EventHandler(this.FormNovProdu_Load);
-            this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -197,14 +172,11 @@
         private System.Windows.Forms.TextBox txt_codigoproduto;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox txt_nomeproduto;
         private System.Windows.Forms.Button txt_adicionar;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ListView listView3;
-        private System.Windows.Forms.ListView listView2;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox5;
     }
 }
