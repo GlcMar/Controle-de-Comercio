@@ -29,7 +29,7 @@ namespace COW
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             FormLogin VoltaMeno = new FormLogin();
             VoltaMeno.Show();
 

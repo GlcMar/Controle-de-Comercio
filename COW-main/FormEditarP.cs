@@ -41,7 +41,10 @@ namespace COW
         private void button4_Click(object sender, EventArgs e)
         {
             Conexoes buscando = new Conexoes();
-            buscando.BuscaEditarProduto(textBox1.Text, label1.Text, label2.Text, label3.Text);
+            string Search = "select nome_item, valor  , codigo  from tb_item where nome_item = @nome_item or valor = @valor or codigo = @codigo;";
+
+            dataGridView1.DataSource = buscando.BuscaEditarProduto(Search, textBox1.Text, textBox1.Text, textBox1.Text);
+
 
 
         }

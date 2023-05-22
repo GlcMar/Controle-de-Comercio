@@ -16,14 +16,7 @@ namespace COW
 
     public class Conexoes
     {
-        /*
-            
-            var strConexao = "server = localhost; uid = admin; pwd = admin; database = abcde";
-            var conexao = new MySqlConnection(strConexao);
-            conexao.Open();
-            MessageBox.Show("Tá tudo bonitinho moço, pode entrar");
-            */
-
+      
         static private string servidor = "localhost";
         static private string db = "abcde";
         static private string usuario = "admin";
@@ -260,52 +253,50 @@ namespace COW
 
             return Registro;
         }
-        
 
 
 
-        public string BuscaEditarProduto(string Search, string result1, string result2, string result3) {
-            string buscado = "";
 
-        
-            
+        public DataTable BuscaEditarProduto(string Search, string result1, string result2, string result3)
+        {
+
+
+
+            DataTable dados = new DataTable();
 
             try
             {
                 conn = getConexao();
                 conn.Open();
+
                 MySqlCommand cmd = new MySqlCommand(Search, conn);
                 cmd.CommandType = System.Data.CommandType.Text;
-                cmd.CommandText = "select nome_item, valor, codigo from tb_item where nome_item = @nome_item or valor = @valor or codigo = @codigo;";
+                cmd.CommandText = Search;
                 cmd.Parameters.AddWithValue("@nome_item", result1);
                 cmd.Parameters.AddWithValue("@valor", result2);
                 cmd.Parameters.AddWithValue("@codigo", result3);
 
-                MySqlDataReader reader = cmd.ExecuteReader();
 
-                reader.Read();
-
-                buscado = reader.GetString(0);
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                da.Fill(dados);
 
                 MessageBox.Show("Funcionou.");
 
 
 
-            }   catch {
+            }
+            catch
+            {
                 MessageBox.Show("Nada encontrado.");
             }
 
-        
-        
-        
 
-
-            return buscado;
+            return dados;
         }
 
 
 
-        
+
 
 
         public int CadastroDeProdutos(string NomeProduto, string CodigoDoProduto, string valorDoProduto)
