@@ -34,19 +34,21 @@ namespace COW
         private void button1_Click_1(object sender, EventArgs e)
         {
             
-            Conexoes casastarDevedor = new Conexoes();
-            casastarDevedor.CadastroDevedor(textBox1.Text, textBox2.Text, textBox3.Text, textBox11.Text, textBox2.Text);
+          
 
-            // this.Hide();
-            //Cone
-            //logar.Logar(txtCPFL.Text, txtSenhaL.Text);
+           
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            FormDevedores devedores = new FormDevedores();
-            devedores.ShowDialog();
+            Conexoes conexoes = new Conexoes();
+            conexoes.CadastroDeDevedores(textBox1.Text, textBox2.Text, textBox3.Text, textBox11.Text);
+
+            textBox1.Text = "Digite o nome do Cliente.";
+            textBox2.Text = "CPF do novo cliente.";
+            textBox3.Text = "Nome do produto";
+            textBox11.Text = "Valor desse produto";
+
         }
     }
 }

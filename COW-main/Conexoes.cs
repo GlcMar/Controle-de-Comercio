@@ -156,22 +156,23 @@ namespace COW
 
 
 
-        public int DeletarProduto(string CodigoDoProduto)
+        public int DeletarProduto(string ItemADepetar)
         {
             int Registro = -1;
             try
             {
                 conn = getConexao();
                 conn.Open();
-                MySqlCommand cmd = new MySqlCommand(CodigoDoProduto, conn);
+                MySqlCommand cmd = new MySqlCommand(ItemADepetar, conn);
                 cmd.CommandType = System.Data.CommandType.Text;
-                cmd.CommandText = "delete from tb_item where id_item = @id_item;";
-                cmd.Parameters.AddWithValue("@id_item", CodigoDoProduto);
+                cmd.CommandText = "delete from tb_item where nome_item = @nome_item;";
+                cmd.Parameters.AddWithValue("@nome_item", ItemADepetar);
+             
                 Registro = cmd.ExecuteNonQuery();
                 conn.Close();
                 MessageBox.Show("Produto deletado.");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
                 MessageBox.Show("Esse produto não existe.");
@@ -222,7 +223,8 @@ namespace COW
 
 
 
-        public int CadastroDevedor(string NomeCliente, string cpfCliente, string nomeproduto, string quantidade, string codigo)
+
+        public int CadastroDeDevedores(string nomeDevedor, string codigoDevedor, string NomeProdutoDevido, string ValorDoProduto)
         {
             int Registro = -1;
 
@@ -232,27 +234,29 @@ namespace COW
             {
                 conn = getConexao();
                 conn.Open();
-                MySqlCommand cmd = new MySqlCommand(NomeCliente, conn);
+                MySqlCommand cmd = new MySqlCommand(nomeDevedor, conn);
                 cmd.CommandType = System.Data.CommandType.Text;
-                cmd.CommandText = "INSERT INTO tb_cliente (nome_cliente, cpf_cliente)\r\n  VALUES(@nome_cliente,  @cpf_cliente);\r\nINSERT INTO tb_item (nome_item, valor, codigo) \r\n  VALUES(@nome_item, @valor, @codigo);";
-                cmd.Parameters.AddWithValue("@nome_cliente", NomeCliente);
-                cmd.Parameters.AddWithValue("@cpf_cliente", cpfCliente);
-                cmd.Parameters.AddWithValue("@nome_item", nomeproduto);
-                cmd.Parameters.AddWithValue("@valor", quantidade);
-                cmd.Parameters.AddWithValue("@codigo", codigo);
+                cmd.CommandText = "insert into tb_cliente(nome_cliente, cpf_cliente) values(@nome_cliente, @cpf_cliente);\r\ninsert into tb_item(nome_item, valor, codigo) values(@nome_item, @valor, @codigo);";
+                cmd.Parameters.AddWithValue("@nome_cliente", nomeDevedor);
+                cmd.Parameters.AddWithValue("@cpf_cliente", codigoDevedor);
+                cmd.Parameters.AddWithValue("@nome_item", NomeProdutoDevido);
+                cmd.Parameters.AddWithValue("@valor", ValorDoProduto);
+                cmd.Parameters.AddWithValue("@codigo", codigoDevedor);
+
                 cmd.ExecuteNonQuery();
                 conn.Close();
-                MessageBox.Show("Devedor cadastrado.");
+                MessageBox.Show("Devedor Cadastrado.");
             }
-            catch (Exception ex)
+            catch (Exception)
 
             {
-                MessageBox.Show("Alguma informação está incorreta." + ex);
+                MessageBox.Show("Alguma informação está incorreta. Tente novamente.");
             }
-
 
             return Registro;
         }
+
+
 
 
 
@@ -293,6 +297,65 @@ namespace COW
 
             return dados;
         }
+
+
+
+        
+
+
+        public DataTable BuscaParaDeletar(string Search, string result1, string result2, string result3)
+        {
+
+
+
+            DataTable dados = new DataTable();
+
+            try
+            {
+                conn = getConexao();
+                conn.Open();
+
+                MySqlCommand cmd = new MySqlCommand(Search, conn);
+                cmd.CommandType = System.Data.CommandType.Text;
+                cmd.CommandText = Search;
+                cmd.Parameters.AddWithValue("@nome_item", result1);
+                cmd.Parameters.AddWithValue("@valor", result2);
+                cmd.Parameters.AddWithValue("@codigo", result3);
+
+
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                da.Fill(dados);
+
+
+                if(dados.Rows.Count > 0)
+                {
+                    MessageBox.Show("Produto encontrado.");
+                }
+                else
+                {
+                    MessageBox.Show("Nenhum item encontrado com esse nome.");
+                };
+
+
+
+                
+
+            }
+            catch
+            {
+                MessageBox.Show("Nada encontrado.");
+            }
+
+
+            return dados;
+        }
+
+
+
+
+
+      
+
 
 
 
