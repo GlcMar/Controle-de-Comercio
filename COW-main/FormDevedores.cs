@@ -52,5 +52,12 @@ namespace COW
             FormCadastDevedor deved = new FormCadastDevedor();
             deved.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Conexoes buscandoDividas = new Conexoes();
+
+            dataGridView1.DataSource = buscandoDividas.ListarDividas(textBox5.Text);
+        }
     }
 }

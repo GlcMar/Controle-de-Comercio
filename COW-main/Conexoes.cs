@@ -184,28 +184,26 @@ namespace COW
         }
 
 
-
-        //O problema nessa atualização abaixo, é que nao consegui obter os dados do banco para
-        //importar pra dentro do datagrid, pra depois extrair pra label e atualizar.
-
-        //Ele funciona perfeitamente. Mas nao está usando a datagrid, nem da pra ver o codigo la.
-        //digite o id_item e mude  o nome da label1, 2 e 3 que funciona.
-        public int AtualizarProduto(string idProduto, string NomeProduto, string codigoProduto, string ValorProduto)
+       
+        public int AtualizarProduto(string ItemA, string ItemB, string ItemC, string mudadoA, string mudadoB, string mudadoC)
         {
             int Registro = -1;
             try
             {
                 conn = getConexao();
                 conn.Open();
-                MySqlCommand cmd = new MySqlCommand(idProduto, conn);
+                MySqlCommand cmd = new MySqlCommand(ItemA, conn);
                 cmd.CommandType = System.Data.CommandType.Text;
-                cmd.CommandText = "UPDATE tb_item\r\nSET nome_item = @nome_item, valor = @valor, codigo = @codigo\r\nWHERE id_item = @id_item;";
-                cmd.Parameters.AddWithValue("@id_item", idProduto);
-                cmd.Parameters.AddWithValue("@valor", ValorProduto);
-                cmd.Parameters.AddWithValue("@codigo", codigoProduto);
-                cmd.Parameters.AddWithValue("@nome_item", NomeProduto);
+
+                // O objetivo aqui seria atualizar os dados que já estariam nas label abaixo da datagridview.
+                //Atribuindo novos valores no lugar em q já foi adquirido do banco.
+                cmd.CommandText = "UPDATE tb_item SET " + ItemA + " = " + mudadoA + " , " + ItemB + " = " + mudadoB + " , " + ItemC + " = " + mudadoC + " ; ";
+                
+
+                
                 Registro = cmd.ExecuteNonQuery();
                 conn.Close();
+
 
 
             }
@@ -353,8 +351,50 @@ namespace COW
 
 
 
+        public DataTable ListarDividas(string CpfEndividado)
+        {
 
-      
+
+
+            DataTable dados = new DataTable();
+
+            try
+            {
+                conn = getConexao();
+                conn.Open();
+
+                MySqlCommand cmd = new MySqlCommand(CpfEndividado, conn);
+                cmd.CommandType = System.Data.CommandType.Text;
+                cmd.CommandText = "select tb_item.nome_item, tb_item.valor from tb_item inner join\r\ntb_cliente where tb_cliente.cpf_cliente = tb_item.codigo;";
+                cmd.Parameters.AddWithValue("@cpf_cliente", CpfEndividado);
+
+
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                da.Fill(dados);
+
+                if (dados.Rows.Count > 0)
+                {
+                    
+                }
+                else
+                {
+                    MessageBox.Show("Nenhum item encontrado com esse nome.");
+                };
+
+
+
+
+
+            }
+            catch
+            {
+                MessageBox.Show("Nada encontrado.");
+            }
+
+
+            return dados;
+        }
+
 
 
 

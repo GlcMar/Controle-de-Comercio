@@ -23,8 +23,7 @@ namespace COW
 
         private void FormVenda_Load(object sender, EventArgs e)
         {
-
-
+      
 
         }
 
@@ -66,6 +65,8 @@ namespace COW
         }
 
      
+     
+
 
     }
 }

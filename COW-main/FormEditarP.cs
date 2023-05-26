@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 
 namespace COW
@@ -45,14 +46,53 @@ namespace COW
 
             dataGridView1.DataSource = buscando.BuscaEditarProduto(Search, textBox1.Text, textBox1.Text, textBox1.Text);
 
+            //Depois de localizar os registros da primeira linha, ele irá adicionar
+            // nas labels abaixo pra dar update depois.(Em comparação)
+
+            label1.Text = dataGridView1.Rows[0].Cells[0].Value.ToString();
+            label2.Text = dataGridView1.Rows[0].Cells[1].Value.ToString();
+            label3.Text = dataGridView1.Rows[0].Cells[2].Value.ToString();
+
+
+
+
+
+            // textbox1.Text = datagridview.Rows(e.RowIndex).Cells(0).Value
+
+
+            // row.Cells[0].Value.ToString();
+
+            // txtJobId.Text = jobId;
+            //txtUserId.Text = userId;
+
+
+
 
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Conexoes atualizacao = new Conexoes();
-            atualizacao.AtualizarProduto(textBox1.Text, label1.Text, label2.Text, label3.Text);
+
+            Conexoes conexoes = new Conexoes();
+            conexoes.AtualizarProduto(label1.Text, label2.Text, label3.Text, textBox8.Text, textBox9.Text, textBox10.Text);
+
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
