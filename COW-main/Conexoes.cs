@@ -365,7 +365,7 @@ namespace COW
 
                 MySqlCommand cmd = new MySqlCommand(CpfEndividado, conn);
                 cmd.CommandType = System.Data.CommandType.Text;
-                cmd.CommandText = "select tb_item.nome_item, tb_item.valor from tb_item inner join\r\ntb_cliente where tb_cliente.cpf_cliente = tb_item.codigo;";
+                cmd.CommandText = "select * from tb_item join tb_cliente where tb_cliente.cpf_cliente = tb_item.codigo or tb_cliente.cpf_cliente = @cpf_cliente;";
                 cmd.Parameters.AddWithValue("@cpf_cliente", CpfEndividado);
 
 
