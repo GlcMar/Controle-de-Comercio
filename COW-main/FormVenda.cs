@@ -23,7 +23,11 @@ namespace COW
 
         private void FormVenda_Load(object sender, EventArgs e)
         {
-      
+            label2.Hide();
+
+            Conexoes buscando = new Conexoes();
+
+            dataGridView1.DataSource = buscando.TodosOsProdutos(label2.Text);
 
         }
 
@@ -57,11 +61,8 @@ namespace COW
 
         private void btnVenda_Click(object sender, EventArgs e)
         {
-
-
-
-
-            // dataGridView1.DataSource = buscando.BuscaParaDeletar(Search, textBox1.Text, textBox1.Text, textBox1.Text);
+            
+           
         }
 
      

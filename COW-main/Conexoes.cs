@@ -1,4 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
+using MySqlX.XDevAPI.Common;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -397,6 +398,38 @@ namespace COW
 
 
 
+
+
+        public DataTable TodosOsProdutos(string Mostrar)
+        {
+            
+            DataTable dados = new DataTable();
+            
+
+            try
+            {
+                conn = getConexao();
+                conn.Open();
+
+                MySqlCommand cmd = new MySqlCommand(Mostrar, conn);
+                cmd.CommandType = System.Data.CommandType.Text;
+                cmd.CommandText = "select * from tb_item where id_item < " + Mostrar;
+
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                da.Fill(dados);
+
+
+
+
+            }
+            catch
+            {
+                MessageBox.Show("Nada encontrado.");
+            }
+
+
+            return dados;
+        }
 
 
 
