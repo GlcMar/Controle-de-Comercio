@@ -16,7 +16,7 @@ namespace COW
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormEditarP());
+            Application.Run(new FormDevedores());
         }
     }
 }

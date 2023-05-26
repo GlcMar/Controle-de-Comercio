@@ -31,6 +31,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
@@ -40,6 +41,7 @@
             this.listView13 = new System.Windows.Forms.ListView();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.listView11 = new System.Windows.Forms.ListView();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
@@ -49,8 +51,7 @@
             this.btnDevedor = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.listView11 = new System.Windows.Forms.ListView();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -78,6 +79,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.textBox4);
             this.groupBox1.Controls.Add(this.dataGridView1);
             this.groupBox1.Controls.Add(this.textBox7);
             this.groupBox1.Controls.Add(this.textBox2);
@@ -100,6 +102,16 @@
             this.groupBox1.TabIndex = 51;
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(795, 123);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.RowTemplate.Height = 28;
+            this.dataGridView1.Size = new System.Drawing.Size(637, 350);
+            this.dataGridView1.TabIndex = 84;
             // 
             // textBox7
             // 
@@ -136,6 +148,7 @@
             this.button2.TabIndex = 59;
             this.button2.Text = "Adicionar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox14
             // 
@@ -187,6 +200,16 @@
             this.label3.Size = new System.Drawing.Size(130, 29);
             this.label3.TabIndex = 62;
             this.label3.Text = "Valor Total";
+            // 
+            // listView11
+            // 
+            this.listView11.HideSelection = false;
+            this.listView11.Location = new System.Drawing.Point(1260, 666);
+            this.listView11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.listView11.Name = "listView11";
+            this.listView11.Size = new System.Drawing.Size(170, 92);
+            this.listView11.TabIndex = 61;
+            this.listView11.UseCompatibleStateImageBehavior = false;
             // 
             // textBox6
             // 
@@ -280,25 +303,13 @@
             this.label2.Size = new System.Drawing.Size(0, 20);
             this.label2.TabIndex = 55;
             // 
-            // dataGridView1
+            // textBox4
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(795, 123);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(637, 350);
-            this.dataGridView1.TabIndex = 84;
-            // 
-            // listView11
-            // 
-            this.listView11.HideSelection = false;
-            this.listView11.Location = new System.Drawing.Point(1260, 666);
-            this.listView11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.listView11.Name = "listView11";
-            this.listView11.Size = new System.Drawing.Size(170, 92);
-            this.listView11.TabIndex = 61;
-            this.listView11.UseCompatibleStateImageBehavior = false;
+            this.textBox4.Location = new System.Drawing.Point(274, 285);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 26);
+            this.textBox4.TabIndex = 85;
+            this.textBox4.Text = "CPFAtribuido";
             // 
             // FormDevedores
             // 
@@ -352,5 +363,6 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.ListView listView11;
+        private System.Windows.Forms.TextBox textBox4;
     }
 }

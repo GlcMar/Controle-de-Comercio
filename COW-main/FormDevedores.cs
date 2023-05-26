@@ -58,6 +58,15 @@ namespace COW
             Conexoes buscandoDividas = new Conexoes();
 
             dataGridView1.DataSource = buscandoDividas.ListarDividas(textBox5.Text);
+
+            // O cpf pesquisado ficara nessa label abaixo pra caso queira adicionar item para esse cpf especifico.
+            textBox4.Text = textBox5.Text;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Conexoes adicionardivida = new Conexoes();
+            adicionardivida.AdicionarDivida(textBox2.Text, textBox7.Text, textBox4.Text);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using MySql.Data.MySqlClient;
+﻿using Google.Protobuf.WellKnownTypes;
+using MySql.Data.MySqlClient;
 using MySqlX.XDevAPI.Common;
 using System;
 using System.Collections.Generic;
@@ -152,7 +153,38 @@ namespace COW
 
 
 
-       
+
+
+        //Abaixo o item sera adicionado se o cpf for igual um existente.
+        public int AdicionarDivida(string NomeDesseItem, string quantidadeDesseItem, string CodigoGeralLigacoesCPF)
+        {
+            int Registro = -1;
+            try
+            {
+                conn = getConexao();
+                conn.Open();
+                MySqlCommand cmd = new MySqlCommand(NomeDesseItem, conn);
+                cmd.CommandType = System.Data.CommandType.Text;
+                cmd.CommandText = "insert into tb_item(nome_item, codigo) values(@nome_item, @codigo);\r\ninsert into tb_cliente(cpf_cliente) values(@cpf_cliente);\r\ninsert into tb_estoque(fk_id_categoria, quantidade) values(@fk_id_categoria, @quantidade);";
+                cmd.Parameters.AddWithValue("@nome_item", NomeDesseItem);
+                cmd.Parameters.AddWithValue("@codigo", CodigoGeralLigacoesCPF);
+                cmd.Parameters.AddWithValue("@cpf_cliente", CodigoGeralLigacoesCPF);
+                cmd.Parameters.AddWithValue("@quantidade", quantidadeDesseItem);
+
+                Registro = cmd.ExecuteNonQuery();
+                conn.Close();
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("oxi" + ex);
+
+
+            }
+
+            return Registro;
+        }
 
 
 
