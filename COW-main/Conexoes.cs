@@ -283,7 +283,6 @@ namespace COW
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 da.Fill(dados);
 
-                MessageBox.Show("Funcionou.");
 
 
 

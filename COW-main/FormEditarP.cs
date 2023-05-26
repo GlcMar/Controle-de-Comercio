@@ -41,7 +41,10 @@ namespace COW
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Conexoes buscando = new Conexoes();
+
+
+
+                Conexoes buscando = new Conexoes();
             string Search = "select nome_item, valor  , codigo  from tb_item where nome_item = @nome_item or valor = @valor or codigo = @codigo;";
 
             dataGridView1.DataSource = buscando.BuscaEditarProduto(Search, textBox1.Text, textBox1.Text, textBox1.Text);
@@ -49,24 +52,10 @@ namespace COW
             //Depois de localizar os registros da primeira linha, ele irá adicionar
             // nas labels abaixo pra dar update depois.(Em comparação)
 
-            label1.Text = dataGridView1.Rows[0].Cells[0].Value.ToString();
-            label2.Text = dataGridView1.Rows[0].Cells[1].Value.ToString();
-            label3.Text = dataGridView1.Rows[0].Cells[2].Value.ToString();
-
-
-
-
-
-            // textbox1.Text = datagridview.Rows(e.RowIndex).Cells(0).Value
-
-
-            // row.Cells[0].Value.ToString();
-
-            // txtJobId.Text = jobId;
-            //txtUserId.Text = userId;
-
-
-
+           
+                 label1.Text = dataGridView1.Rows[0].Cells[0].Value.ToString();
+                label2.Text = dataGridView1.Rows[0].Cells[1].Value.ToString();
+                label3.Text = dataGridView1.Rows[0].Cells[2].Value.ToString();
 
 
         }
